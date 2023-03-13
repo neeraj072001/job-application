@@ -9,76 +9,88 @@
     <script src="./script.js"></script>
 </head>
 <body>
-        <div class="container">
-            <br>
-            <h1>Job Application (Web)</h1>
-            <from id="myform">
-                <div class="form-container">
-                    <div class="flex-container">
-                        <div class="input-container">
-                            <label for="first name"><strong>First Name</strong></label>
-                            <br>
-                            <input type="text" name="first name" id="first name" placeholder="Enter First Name" class="wd ht" >    
-                           </div>
-                           <div class="input-container">
-                            <label for="last name"><strong>Last Name</strong></label>
-                        <br>
-                        <input type="text" name="last name" id="last name" placeholder="Enter Last Name" class="wd ht" >
-                        </div>
-                    </div>
-                    <div class="flex-container">
-                        <div class="input-container">
-                            <label for="email"><strong>Email</strong></label>
-                            <br>
-                            <input type="email" name="email" id="email" placeholder="Enter Email" class="wd ht" >
-                        </div>
-                        <div class="input-container">
-                            <label for="job role"><strong>Job Role</strong></label>
-                        <br>
-                        <select name="job role" id="job role" class="wd ht" >
-                            <option value="Select Job Role">Select Job Role</option>
-                            <option value="Frontend Developer">Frontend Developer</option>
-                            <option value="Backend Developer">Backend Developer</option>
-                            <option value="Full Stack Developer">Full Stack Developer</option>
-                        </select>
-                        </div>
-                    </div>
-                    <div class="flex-container">
-                        <div class="input-container">
-                            <label for="enter address"><strong>Enter Address</strong></label>
-                        <br>
-                        <Textarea name="enter address" id="address" rows="5" cols="67" class="wta hta"></Textarea>
-                        </div>
-                    </div>
-                    <div class="flex-container">
-                        <div class="input-container">
-                            <label for="city"><strong>City</strong></label>
-                        <br>
-                        <input type="text" name="city" id="city" placeholder="Enter City" class="wd ht" >
-                        </div>
-                        <div class="input-container">
-                            <label for="pincode"><strong>PinCode</strong></label>
-                        <br>
-                        <input type="text" name="pincode" id="pincode" placeholder="Enter PinCode" class="wd ht" >
-                        </div>
-                    </div>
-                    <div class="flex-container">
-                        <div class="input-container">
-                            <label for="start date"><strong>Start Date</strong></label>
-                        <br>
-                        <input type="date" name="start date" id="date" class="wd ht" >
-                        </div>
-                        <div class="input-container">
-                            <label for="upload your cv"><strong>Upload your Resume</strong></label>
-                            <br>
-                            <input type="file" name="upload your file" id="file" class="wd ht" >
-                        </div>
-                    </div>
-            <div class="flex-button">
-                <button onclick="resetButton()" id="reset">Reset</button>
-                <button>Apply Now</button>
+    <div class="container">
+        <br>
+        <h1>Job Application (Web)</h1>
+        <form id="myform">
+            <div class="form-container">
+                <div class="input-container">
+                    <label for="first name">
+                        <strong>First Name</strong>
+                    </label>
+                    <br>
+                    <input type="text" name="first name" id="first name" placeholder="Enter First Name" class="wd ht" >    
+                </div>
+                <div class="input-container">
+                    <label for="last name">
+                        <strong>Last Name</strong>
+                    </label>
+                    <br>
+                    <input type="text" name="last name" id="last name" placeholder="Enter Last Name" class="wd ht" >
+                </div>
+                <div class="input-container">
+                    <label for="email">
+                    <strong>Email</strong>
+                    </label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter Email" class="wd ht" >
+                </div>
+                <div class="input-container">
+                    <label for="job role">
+                        <strong>Job Role</strong>
+                    </label>
+                    <br>
+                    <select name="job role" id="job role" class="wd ht" >
+                        <option value="Select Job Role">Select Job Role</option>
+                        <option value="Frontend Developer">Frontend Developer</option>
+                        <option value="Backend Developer">Backend Developer</option>
+                        <option value="Full Stack Developer">Full Stack Developer</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <label for="enter address">
+                        <strong>Enter Address</strong>
+                    </label>
+                    <br>
+                    <Textarea name="enter address" id="address" rows="5" cols="67" class="wta hta">
+                    </Textarea>
+                </div>
+                <div class="input-container">
+                    <label for="city">
+                        <strong>City</strong>
+                    </label>
+                    <br>
+                    <input type="text" name="city" id="city" placeholder="Enter City" class="wd ht" >
+                </div>
+                <div class="input-container">
+                    <label for="pincode">
+                        <strong>PinCode</strong>
+                    </label>
+                    <br>
+                    <input type="text" name="pincode" id="pincode" placeholder="Enter PinCode" class="wd ht" >
+                </div>
+                <div class="input-container">
+                    <label for="start date">
+                        <strong>Start Date</strong>
+                    </label>
+                    <br>
+                    <input type="date" name="start date" id="date" class="wd ht" >
+                </div>
+                <div class="input-container">
+                    <label for="upload your cv">
+                        <strong>Upload your Resume</strong>
+                    </label>
+                    <br>
+                    <input type="file" name="upload your file" id="file" class="wd ht" >
+                </div>
+                <div class="input-container">
+                    <button onclick="resetButton()" id="reset">Reset</button>
+                </div>
+                <div class="input-container">
+                    <button>Apply Now</button>
+                </div>
             </div>
-            </div>
-        </div>
+        </form>
+    </div>
 </body>
 </html>
