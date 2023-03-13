@@ -7,7 +7,7 @@ body{
     background-color: #ccc;
 }
 .container{
-    margin: 50px auto;
+    margin:3% auto;
     border: 0pc solid black;
     box-shadow: 4px 4px 4px gray;
     width: 550px;
@@ -50,14 +50,14 @@ button:hover{
 }
 @media (max-width: 460px) {
     .container{
-        width: 320px;
-        height: 770px;
-    }
+        width: 90%;
+        height: 90%;
+     }
     .wta{
-        width:280px;
+        width: 78vw;
     }
     .wd{
-        width: 280px;
+        width: 78vw;
     }
     .ht{
         height: 25px;
