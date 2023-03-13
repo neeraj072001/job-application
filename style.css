@@ -53,3 +53,27 @@ button{
 button:hover{
     cursor: pointer;
 }
+@media (max-width: 460px) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    }
+    .container{
+        width: 320px;
+        height: 750px;
+    }
+    .wta{
+        width:280px;
+    }
+    .wd{
+        width: 280px;
+    }
+    .ht{
+        height: 25px;
+    }
+    .hta{
+        height: 60px;
+    }
+
+}
