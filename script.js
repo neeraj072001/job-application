@@ -1,3 +1,4 @@
 function resetButton(){
-    document.getElementById("myform").reset();
+    let r= document.getElementById("myform")
+       r.reset();
 }
